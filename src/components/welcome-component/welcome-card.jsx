@@ -1,4 +1,4 @@
-import "./welcome-card.css"
+import "./welcome-card.css";
 
 function WelcomeCard({ imagen, titulo, texto }) {
     return (

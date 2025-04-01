@@ -1,4 +1,4 @@
-import "../styles/Contact.css"
+import "../styles/Contact.css";
 const phoneNumber = "(+54) 011 23456789";
 
 function Contact() {
