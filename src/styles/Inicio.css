@@ -1,0 +1,60 @@
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Evita scroll horizontal si hay desbordamiento */
+}
+
+.padding {
+    height: 77px;
+    width: 100%;
+}
+
+.Inicio {
+    background-image: url("../assets/taller-welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 577px;
+}
+
+.fondo-transparente {
+    background-color: rgba(29, 29, 29, 0.473);
+}
+
+.resto {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text h4 {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px transparent;
+}
+
+.text h2 {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 5px;
+    border: 1px transparent;
+}
+
+.contactanos {
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 2px;
+    background-color: rgb(53, 53, 53);
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.contactanos:hover {
+    background: rgb(30, 30, 30);
+    border-color: white;
+}
+

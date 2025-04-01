@@ -1,0 +1,41 @@
+.contServiceCard {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contServiceCardImagen {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.contServiceCardImagen img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contServiceCardText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contServiceCardText h3 {
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.contServiceCardText p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.contServiceCardButton button {
+    font-size: 16px;
+    padding: 10px 15px;
+}

@@ -1,14 +1,24 @@
-# Ignorar dependencias
-node_modules/
-
-# Archivos de entorno
-.env
-
-# Logs y caché
+# Logs
+logs
 *.log
-.cache/
-dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Configuración del sistema
-.DS_Store  # MacOS
-Thumbs.db   # Windows
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
