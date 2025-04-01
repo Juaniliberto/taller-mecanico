@@ -1,0 +1,14 @@
+# Ignorar dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Logs y caché
+*.log
+.cache/
+dist/
+
+# Configuración del sistema
+.DS_Store  # MacOS
+Thumbs.db   # Windows
