@@ -2,7 +2,7 @@ import WelcomeCard from "../components/welcome-component/welcome-card";
 import apreton from "../assets/apreton2.jpg";
 import entrega from "../assets/entrega.jpg";
 import check from "../assets/check2.jpg";
-import "../styles/welcome.css";
+import "../styles/Welcome.css";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { div } from "framer-motion/client";
