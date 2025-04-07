@@ -1,10 +1,10 @@
-import "./styles/App.css";
+import "./styles/App.css"
 
-import Navbar from "./pages/Navbar";
-import Inicio from "./pages/Inicio";
-import Welcome from "./pages/Welcome";
-import Servicios from "./pages/Servicios";
-import Contact from "./pages/Contact";
+import Navbar from "./pages/Navbar"
+import Inicio from "./pages/Inicio"
+import Welcome from "./pages/Welcome"
+import Servicios from "./pages/Servicios"
+import Contact from "./pages/Contact"
 
 function App() {
 

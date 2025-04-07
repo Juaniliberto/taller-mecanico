@@ -1,33 +1,36 @@
-import '../styles/Navbar.css';
+import '../styles/Navbar.css'
+import { useState } from 'react';
 
 function Navbar() {
+
+    const [menuAbierto, setMenuAbierto] = useState(false);
 
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
         if (section) {
-          const navbarHeight = document.querySelector('.barra-navegacion').offsetHeight;
-          const sectionPosition = section.offsetTop - 120;
-          window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+            const navbarHeight = document.querySelector('.barra-navegacion').offsetHeight;
+            const sectionPosition = section.offsetTop - 120;
+            window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+            setMenuAbierto(false);
         }
-      };
+    };
+
 
     return (
         <nav className='barra-navegacion'>
             <span className='texto'> Servicio CL</span>
-            <div className='botoneraNavBar'>
+            <button 
+                className='boton-hamburguesa' 
+                onClick={() => setMenuAbierto(!menuAbierto)}
+            >
+                ☰
+            </button>
+            <div className={`botoneraNavBar ${menuAbierto ? 'mostrar' : ''}`}>
                 <button className='botonNavBar' onClick={() => scrollToSection("inicio")}>Introduccion</button>
                 <button className='botonNavBar' onClick={() => scrollToSection("bienvenida")}>Bienvenida</button>
                 <button className='botonNavBar' onClick={() => scrollToSection("servicios")}>Servicios</button>
                 <button className='botonNavBar' onClick={() => scrollToSection("contacto")}>Contactanos</button>
             </div>
-            {/* <ul>
-                <li><a href="#inicio" className="texto">Introduccion</a></li>
-                <li><a href="#bienvenida" className="texto">Bienvenida</a></li>
-                <li><a href="#servicios" className="texto">Servicios</a></li>
-                <li><a href="#testimonios" className="texto">Testimonios</a></li>
-                <li><a href="#galeria" className="texto">Galería</a></li>
-                <li><a href="#contacto" className="texto">Contáctanos</a></li>
-            </ul> */}
         </nav>
     )
 }

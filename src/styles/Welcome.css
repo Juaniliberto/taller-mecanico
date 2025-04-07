@@ -64,3 +64,28 @@
     opacity: 1;
     transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+    .welcome {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .boton {
+        display: none; /* ocultamos flechas laterales en mobile */
+      }
+    
+      .cardWelcome {
+        width: 100%;
+      }
+    
+      .tarjeta-ind {
+        width: 100%;
+        padding: 0 10px;
+      }
+    
+      .indicadores {
+        margin-top: 20px;
+      }
+}

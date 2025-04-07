@@ -74,3 +74,59 @@
 .boton-enviar:hover {
     background-color: grey;
 }
+
+@media (max-width: 768px) {
+    .contact {
+      height: auto;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+  
+    .contact-text h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .contact-text h3 {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .form-info {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .info {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .titulo {
+      font-size: 20px;
+    }
+  
+    .contact-form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .contact-form form {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .input {
+      width: 90%;
+      font-size: 16px;
+    }
+  
+    .boton-enviar {
+      width: 50%;
+      font-size: 16px;
+    }
+  }
+  

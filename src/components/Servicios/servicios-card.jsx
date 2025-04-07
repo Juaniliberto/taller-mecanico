@@ -1,4 +1,4 @@
-import "./servicios-card.css";
+import "./servicios-card.css"
 
 function ServiciosCard({ imagen, titulo, texto }) {
     return (

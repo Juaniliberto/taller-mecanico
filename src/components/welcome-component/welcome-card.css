@@ -27,7 +27,6 @@
     object-fit: cover; /* Asegura que la imagen se vea bien sin distorsionarse */
 }
 
-
 .welcome-card-text {
     width: 40%;
     padding-left: 50px;
@@ -46,4 +45,41 @@
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .welcome-card-2 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .imagenDiv {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagen {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .welcome-card-text {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .welcome-card-text h1 {
+        font-size: 20px;
+    }
+    
+    .welcome-card-text p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
 }

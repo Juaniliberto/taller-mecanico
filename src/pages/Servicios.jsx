@@ -1,8 +1,8 @@
-import "../styles/Servicios.css";
-import ServiciosCard from "../components/Servicios/servicios-card";
-import aceite from "../assets/aceite.jpg";
-import motor from "../assets/motor.jpg";
-import trenDelantero from "../assets/tren-delantero.jpg";
+import "../styles/Servicios.css"
+import ServiciosCard from "../components/Servicios/servicios-card"
+import aceite from "../assets/aceite.jpg"
+import motor from "../assets/motor.jpg"
+import trenDelantero from "../assets/tren-delantero.jpg"
 
 function Servicios() {
     return (

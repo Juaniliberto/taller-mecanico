@@ -28,3 +28,30 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .servicios {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .servicios-texto h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .servicios-texto h3 {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .tarjetaServicios {
+      width: 100%;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+  

@@ -39,3 +39,35 @@
     font-size: 16px;
     padding: 10px 15px;
 }
+
+@media (max-width: 768px) {
+
+    .contServiceCard {
+      background-color: rgb(238, 238, 238);
+      border-radius: 4px;
+      color: black;
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      padding: 10px;
+    
+    }
+
+    .info-btn {
+      display: none;
+    }
+  
+    .contServiceCardImagen {
+      height: 180px;
+    }
+  
+    .contServiceCardText p {
+      font-size: 13px;
+      padding: 0 10px;
+    }
+  
+    .contServiceCardButton button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+}
